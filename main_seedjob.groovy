@@ -1,7 +1,5 @@
 pipelineJob ('dsl_job_a')
 {
-    stages {
-
         stage('Checkout')
          {
                 scm { 
@@ -14,8 +12,6 @@ pipelineJob ('dsl_job_a')
                                     }
                             }         
                     }
-         }
-    
-    
-    } 
+         }   
+
 }
