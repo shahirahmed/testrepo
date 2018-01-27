@@ -4,3 +4,4 @@ print(text)
 for x in text:
  if x.isupper():
   print("the number is %s" %x )
+  print("happy")
